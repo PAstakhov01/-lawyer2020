@@ -1,0 +1,819 @@
+@font-face {
+font-family: 'a_Futurica';
+
+ src: url(fonts/a_Futurica.ttf) ;
+
+}
+
+@font-face {
+font-family: 'Century Gothic';
+
+ src: url(fonts/CenturyGothic.ttf) ;
+
+}
+@media (min-width: 320px) {
+  .acc-icons_cont {
+  display: flex;
+  position: absolute;
+  right: 1%;
+}
+    .privacy-checkbox {
+
+    font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.75em;
+line-height: 1em;
+
+color: #666666;
+
+  }
+     .privacy-checkbox:hover {
+
+    font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.75em;
+line-height: 1em;
+
+color: #666666;
+
+  }
+  .privacy-accept__button {
+  width: unset;
+  background: #E51A4C;
+  height: 30px;
+margin-bottom: 1.5em;
+}
+.link-cont {
+    width: 134px;
+    margin: 0 auto;
+}
+.privacy-button__link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.75em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+
+}
+.privacy-button__link:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 0.75em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+   .privacy_lists {
+    padding-top: 2em;
+    width: 295px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-right: 2em;
+  }
+ .privacy-input__first {
+  background: #FFFFFF;
+border: 1px solid #C5C6C6;
+box-sizing: border-box;
+    width: 100%;
+    font-family: Century Gothic;
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 1vh;
+    display: flex;
+    align-items: flex-end;
+    color: #A2A2A2; 
+  }
+  
+   
+
+ 
+.acc-cont {
+  margin-top: 1.25em;
+  padding-right: 1em;
+  display: block;
+}
+.acc-item__text {
+     margin-left: 0.5em;
+    font-family: Century Gothic;
+    font-size: 0.9em;
+    line-height: 1.125em;
+    color: #FFFFFF;
+    text-align: initial;
+    margin-right: 0.1em;
+    margin-bottom: 1em;
+}
+
+     .acc-main__title {
+  font-family: Century Gothic;
+font-size: 1.5em;
+line-height: 1em;
+text-align: left;
+font-weight: 600;
+width: 211px;
+    margin: 0 auto;
+    padding-top: 3em;
+display: block;
+color: #000000;
+}
+  .footer-contacts {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+    .call__footer {
+  
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.call__footer:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.mail__footer {
+  margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.mail__footer:hover {
+    margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+  .footer-second__cont {
+        margin: 0 auto;
+    width: 68%;
+  }
+  .basket {
+      margin-top: 1.5em;
+          margin-right: 3em;
+  display: flex;
+} 
+  .like {
+    margin-top: 1.5em;
+    margin-right: 2em;
+  }
+  .header_text {
+    display: none;
+  }
+  .footer-item__link {
+    
+  font-family: Century Gothic;
+font-size: 0.8em;
+line-height: 1.2em;
+
+color: #000000;
+  text-decoration: none;
+}
+.footer-img_phone {
+   margin-left: 5em;
+    margin-bottom: 2em;
+      margin-right: 0; 
+      display: block }
+
+
+  .footer-img {
+ display: none;
+
+}
+
+.footer-item__link:hover {
+    
+  font-family: Century Gothic;
+font-size: 0.8em;
+line-height: 1.2em;
+
+color: #000000;
+  text-decoration: none;
+}
+.geolocation {
+  display: none;
+}
+.call {
+  display: none;
+  
+}
+.logo {
+      display:none;
+}
+.logo_phone {
+      margin-right: 2em;
+    display: block;
+  }
+.acc__text {
+  display: none;
+  margin-left: 0.5em;
+}
+
+.acc__cont {
+    margin-top: 1.5em;
+    display: flex;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 480px;
+   background: rgba(226, 224, 224, 0.54);
+  
+}
+.footer-cont {
+ margin-top: 3em;
+  margin: 0 auto;
+  display: block;
+}
+.header { 
+  width: 100%;
+  height: 80px;
+  background: #E5E5E5;
+  display: flex;
+}
+  
+  .footer-icons {
+  margin-left: 2em;
+}
+.footer-fb {
+margin-left: 1.5em;
+}
+.footer-vk {
+  margin-left: 1.5em;
+}
+}
+@media (min-width: 768px) { 
+  .acc-icons_cont {
+  display: flex;
+  position: absolute;
+  right: 10%;
+}
+  .privacy-checkbox {
+    font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 1em;
+line-height: 1em;
+
+color: #666666;
+
+  }
+  .privacy-accept__button {
+  width: 380px;
+  background: #E51A4C;
+  height: 50px;
+  margin-left: 5.5em;
+}
+.link-cont {
+    width: 179px;
+    margin: 0 auto;
+    padding-top: 0.5em;
+}
+.privacy-button__link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+
+}
+.privacy-button__link:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+    .privacy_lists {
+    padding-top: 2em;
+    width: 540px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+ .privacy-input__first {
+  background: #FFFFFF;
+border: 1px solid #C5C6C6;
+box-sizing: border-box;
+    width: 100%;
+    font-family: Century Gothic;
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 1vh;
+    display: flex;
+    align-items: flex-end;
+    color: #A2A2A2; 
+  }
+    .acc-main__title {
+  font-family: Century Gothic;
+font-size: 2em;
+line-height: 1em;
+text-align: left;
+font-weight: 600;
+width: 281px;
+    margin: 0 auto;
+    padding-top: 2em;
+display: block;
+color: #000000;
+}
+
+.acc__cont {
+  margin-bottom: 2em;
+  display: block;
+}
+
+  .footer-second__cont {
+        margin: unset;
+    width: unset;
+  }
+  .footer-img_phone  {
+    display: none;
+  }
+  .call__footer {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.call__footer:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.mail__footer {
+  margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.mail__footer:hover {
+    margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+  .header { 
+  width: 100%;
+  height: 125px;
+  background: #E5E5E5;
+  display: flex;
+}
+  .logo_phone {
+    display: none;
+  }
+  .logo {
+    display: block;
+    margin-top: 1em;
+    margin-right: 5em;
+}
+.head__cont-acc {
+  display: flex;
+  margin-top: 1.75em;
+}
+
+
+.call {
+  display: block;
+  margin-top: 0.4em;
+  margin-left: 1.75em;
+}
+.acc-cont {
+  margin-top: 1em;
+  display: flex;
+  
+}
+  .footer-img {
+    display: block;
+    margin-left: 1em;
+    margin-bottom: 2em;
+      margin-right: 0;
+}
+ .footer-cont {
+margin-top: 3em;
+    display: flex;
+}
+  .basket {
+      margin-top: 2.5em;
+          margin-right: 5em;
+  display: flex;
+} 
+  .like {
+    margin-top: 2.5em;
+    margin-right: 1em;
+  }
+  .footer-icons {
+  margin-left: 1em;
+}
+.footer-fb {
+margin-left: 1.5em;
+}
+.footer-vk {
+  margin-left: 1.5em;
+}
+}
+@media (min-width: 1025px) {
+
+.privacy-accept__button {
+  width: 380px;
+  background: #E51A4C;
+  height: 50px;
+  margin-left: 12.5em;
+}
+.link-cont {
+    width: 179px;
+    margin: 0 auto;
+    padding-top: 0.5em;
+}
+.privacy-button__link {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+
+}
+.privacy-button__link:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+
+
+
+  .privacy_lists {
+    padding-top: 2em;
+    width: 650px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+.privacy-input__first {
+    border: 1px solid #A2A2A2;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 100%;
+    font-family: Century Gothic;
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 1vh;
+    display: flex;
+    align-items: flex-end;
+    color: #A2A2A2; 
+  }
+.acc-cont {
+  margin-bottom: 0em;
+
+}
+
+  .acc-main__title {
+  font-family: Century Gothic;
+font-size: 2em;
+line-height: 1em;
+text-align: left;
+font-weight: 600;
+width: 281px;
+    margin: 0 auto;
+    padding-top: 2em;
+display: block;
+color: #000000;
+}
+  .footer-contacts {
+  margin-left: 3em;
+}
+  .call__footer {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.call__footer:hover {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.mail__footer {
+  margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.mail__footer:hover {
+    margin-top: 1em;
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 0.975em;
+line-height: 1em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.footer-icons {
+  margin-left: 1em;
+}
+.footer-fb {
+margin-left: 1.5em;
+}
+.footer-vk {
+  margin-left: 1.5em;
+}
+.head__cont-acc {
+  margin-top: 0.5em;
+  display: block;
+}
+
+  .navbar-nav {
+  margin-left: 8em;
+}
+  .header_text {
+    display: block;
+    margin-top: 2.5em;
+    margin-right: 2em;
+  }
+  .header_link {
+    font-family: Century Gothic;
+font-size: 1em;
+font-weight: 600;
+line-height: 1.125em;
+text-decoration: none;
+color: #4D4D4D;
+  }
+   .header_link:hover {
+    font-weight: 600;
+    font-family: Century Gothic;
+font-size: 1em;
+line-height: 1.125em;
+text-decoration: none;
+color: #4D4D4D;
+  }
+  .footer {
+  display: flex;
+  width: 100%;
+  height: 313px;
+  background: rgba(226, 224, 224, 0.54);
+
+}
+.footer-item__link {
+      
+  font-family: Century Gothic;
+font-size: 1em;
+line-height: 1.2em;
+color: #4D4D4D;
+
+  text-decoration: none;
+}
+
+.footer__lists {
+  display: flex;
+}
+.footer-item__link:hover {
+     
+  font-family: Century Gothic;
+font-size: 1em;
+line-height: 1.2em;
+color: #4D4D4D;
+
+  text-decoration: none;
+}
+  .footer-cont {
+ margin-top: 3em;
+  margin: 0 auto;
+  display: flex;
+}
+  .footer-img {
+      margin-right: 5em;
+}
+.like {
+ margin-left: 1em;
+    margin-top: 2.5em;
+    display: flex;
+    margin-right: 5em;
+}
+.basket {
+      margin-top: 2.5em;
+          margin-right: 5em;
+  display: flex;
+} 
+.acc__text {
+  display: block;
+  margin-left: 0.5em;
+}
+.logo {
+  margin-left: 2em;
+      margin-right: 2em;
+      margin-top: 1em;
+}
+
+}
+
+.header__cont {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 1vh;
+}
+
+
+
+
+.acc__png {
+   width: 1.125em;
+   height: 1.125em;
+
+}
+
+.like__png {
+  width:  1.3750em;
+    height: 1.1875em;
+}
+.basket__png {
+   width: 1.375em;
+    height: 1.375em;
+}
+.basket_price {
+  font-weight: 600;
+      margin-left: 0.5em;
+    margin-top: 0.2em;
+   font-family: Century Gothic;
+font-size: 0.875em;
+line-height:  1.0625em;
+text-align: center;
+color: #4D4D4D;
+}
+.call__phone {
+  font-family: Century Gothic;
+font-style: normal;
+
+font-size: 1em;
+line-height: 1.5625em;
+
+color: #4D4D4D;
+text-decoration: none;
+}
+.call__phone:hover {
+   font-family: Century Gothic;
+font-size: 1em;
+line-height: 1.5625em;
+
+color: #4D4D4D;
+text-decoration: none;
+}
+.acc__login {
+  font-family: Century Gothic;
+font-size: 1em;
+line-height: 1.125em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.acc__login:hover {
+  font-family: Century Gothic;
+font-size: 1em;
+line-height: 1.125em;
+text-decoration: none;
+color: #4D4D4D;
+}
+.call__cont {
+  display: flex;
+}
+.call__text {
+       margin-left: 0.5em;
+}
+
+
+.nav-link {
+  font-family: Century Gothic;
+font-size:0.9375em;
+line-height: 1.125em;
+font-weight: 600;
+color: #4D4D4D;
+margin-left: 1em;
+}
+.nav-link:hover {
+  font-family: Century Gothic;
+font-size:0.9375em;
+line-height: 1.125em;
+font-weight: 600;
+margin-left: 1em;
+color: #4D4D4D;
+}
+.dropdown-item {
+  font-family: Century Gothic;
+font-size:0.9375em;
+line-height: 1.125em;
+text-transform: lowercase;
+
+color: #000000;
+}
+.footer__item {
+      margin-top: 1em;
+  list-style-type: none;
+}
+
+.footer__lists {
+  display: flex;
+}
+
+.footer-icons {
+  margin-top: 1.2em;
+  display: flex;
+}
+.footer-inst {
+  margin-left: 1.5em;
+}
+
+.phone-img {
+  margin-right: 0.5em;
+}
+.mail-img {
+  margin-right: 0.5em;
+}
+
+
+.link__cont {
+  text-align: center;
+}
+.acc__cont  {
+  margin-bottom: 5em;
+}
+.privacy-item {
+    list-style-type: none;
+}
+.item-text {
+  font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+padding-top: 0.5em;
+padding-bottom: 1em;
+color: #666666;
+}
+
+.icon-item {
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+
+}
